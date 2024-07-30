@@ -1,0 +1,41 @@
+2024-07-29 13:22:52 INFO  AppXpay:32 - *******Navigating to the login page*******
+2024-07-29 13:22:52 INFO  AppXpay:37 - *******Entering valid username and password*******
+2024-07-29 13:22:54 INFO  AppXpay:43 - *******Clicking on the submit button*******
+2024-07-29 13:22:57 INFO  AppXpay:32 - *******Navigating to the login page*******
+2024-07-29 13:23:01 INFO  AppXpay:67 - *******Verifying the user is logged in and on the dashboard page*******
+2024-07-29 13:28:33 INFO  AppXpay:32 - *******Navigating to the login page*******
+2024-07-29 13:28:33 INFO  AppXpay:37 - *******Entering valid username and password*******
+2024-07-29 13:28:35 INFO  AppXpay:43 - *******Clicking on the submit button*******
+2024-07-29 13:28:37 INFO  AppXpay:32 - *******Navigating to the login page*******
+2024-07-29 13:28:41 INFO  AppXpay:67 - *******Verifying the user is logged in and on the dashboard page*******
+2024-07-29 13:32:17 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:32:17 INFO  AppXpay:43 - *******Entering valid username and password*******
+2024-07-29 13:32:19 INFO  AppXpay:49 - *******Clicking on the submit button*******
+2024-07-29 13:32:21 INFO  AppXpay:57 - *******Verifying redirection to the dashboard page*******
+2024-07-29 13:32:24 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:32:29 INFO  AppXpay:76 - *******Verifying the user is logged in and on the dashboard page*******
+2024-07-29 13:38:28 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:38:28 INFO  AppXpay:43 - *******Entering valid username and password*******
+2024-07-29 13:38:30 INFO  AppXpay:49 - *******Clicking on the submit button*******
+2024-07-29 13:38:32 INFO  AppXpay:57 - *******Verifying redirection to the dashboard page*******
+2024-07-29 13:38:34 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:38:39 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:38:39 INFO  AppXpay:76 - *******Verifying the user is logged in and on the dashboard page*******
+2024-07-29 13:40:02 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:40:02 INFO  AppXpay:43 - *******Entering valid username and password*******
+2024-07-29 13:40:04 INFO  AppXpay:49 - *******Clicking on the submit button*******
+2024-07-29 13:40:06 INFO  AppXpay:57 - *******Verifying redirection to the dashboard page*******
+2024-07-29 13:40:08 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:40:15 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:40:15 INFO  AppXpay:76 - *******Verifying the user is logged in and on the dashboard page*******
+2024-07-29 13:41:16 INFO  AppXpay:43 - *******Entering valid username and password*******
+2024-07-29 13:41:18 INFO  AppXpay:43 - *******Entering valid username and password*******
+2024-07-29 13:41:20 INFO  AppXpay:43 - *******Entering valid username and password*******
+2024-07-29 13:42:38 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:42:38 INFO  AppXpay:43 - *******Entering valid username and password*******
+2024-07-29 13:42:42 INFO  AppXpay:49 - *******Clicking on the submit button*******
+2024-07-29 13:42:44 INFO  AppXpay:57 - *******Verifying redirection to the dashboard page*******
+2024-07-29 13:42:47 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:42:53 INFO  AppXpay:38 - *******Navigating to the login page*******
+2024-07-29 13:42:53 INFO  AppXpay:43 - *******Entering valid username and password*******
+2024-07-29 13:42:55 INFO  AppXpay:76 - *******Verifying the user is logged in and on the dashboard page*******

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.ExtentTestNGITestListener"/>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<!--<class name="tests.LoginPageTest"/>
+      	<class name="tests.DashboardPageTest"/>
+      		<class name="tests.MerchatOnboardTest"/>
+     			<class name="tests.MerchantListTest"/>
+      				<class name="tests.transactionTest"/>
+	      				<class name="tests.CompanyInfoTest"/>
+	      				 	<class name="tests.VendorRegistrationTest"/>-->
+			<class name="tests.VendorListTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

@@ -1,0 +1,17 @@
+tests\MerchantListTest.class
+pages\LoginPage.class
+tests\DashboardPageTest.class
+pages\DashboardPage.class
+tests\BaseTest.class
+pages\MerchantOnboardPage.class
+tests\VendorListTest.class
+pages\vendorListPage.class
+pages\SettlementPage.class
+pages\transcationPage.class
+tests\CompanyInfoTest.class
+tests\LoginPageTest.class
+pages\VendorRegistrationPage.class
+tests\VendorRegistrationTest.class
+tests\MerchatOnboardTest.class
+tests\transactionTest.class
+pages\MerchantListPage.class

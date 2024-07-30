@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.CompanyInfoTest">
+        <methods>
+          <include name="testValidSubmission"/>
+          <include name="testSortingIndicatorChangesToAscending"/>
+          <include name="testSelectState"/>
+          <include name="testValidIpAddress"/>
+          <include name="testSpecialAndNumericValuesInBranchName"/>
+          <include name="companyPage"/>
+          <include name="testEnterAlphanumericIFSCCode"/>
+          <include name="testUpdateWebAppData"/>
+          <include name="testEnterAlphabetsAndSpecialCharacters"/>
+          <include name="testUploadFileAgain"/>
+          <include name="validateUserIdFormat"/>
+          <include name="testEmptySearchInput"/>
+          <include name="verifyMandatoryFieldValidation"/>
+          <include name="testClickNextButton"/>
+          <include name="testCompleteButtonSubmitsForm"/>
+          <include name="testClickbussinessInfoTab"/>
+          <include name="verifyBadgeTextAndVisibility"/>
+          <include name="testClickPersonalDetailsTab"/>
+          <include name="testEnterAppName"/>
+          <include name="testUploadFileMoreThan5Mb"/>
+          <include name="testEditCompanyInfoAndClickNext"/>
+          <include name="selectValidBusinessCategory"/>
+          <include name="testClickPersonalDetailTab"/>
+          <include name="CompanyInfo"/>
+          <include name="testEnterValidWebhookUrl"/>
+          <include name="verify_click_Cancel_button"/>
+          <include name="testSelectVendor"/>
+          <include name="testErrorMessageDisplayedForLessThan9Digits"/>
+          <include name="testClickingButtonOpensModal"/>
+          <include name="testSortingIndicatorChangesToDescending"/>
+          <include name="verifyUserDetailsDisplayedCorrectly"/>
+          <include name="testAlphabeticCharactersInBankAccountNumberField"/>
+          <include name="testChangeOrderPrefix"/>
+          <include name="testUpdateWebApp"/>
+          <include name="testPayInToggleSwitch"/>
+          <include name="verifyBadgeTextAndVisibilityFor_NO"/>
+          <include name="testNoDataInWebAppsList"/>
+          <include name="testIrrelevantSearchText"/>
+          <include name="testUploadInValidPdfFile"/>
+          <include name="testOrderPrefixMoreThanFourCharacters"/>
+          <include name="verify_entering_valid_account_number"/>
+          <include name="testClickPreviousButtonOnLastPage"/>
+          <include name="testEnterValidPincode"/>
+          <include name="testCopyPasteSearchField"/>
+          <include name="testSpecialAndNumericValues"/>
+          <include name="testCancelButtonIsClickable"/>
+          <include name="testEnterNumberMoreThan100Percent"/>
+          <include name="testEnterValidIFSCCode"/>
+          <include name="testCompleteItButtonClick"/>
+          <include name="testSpecialCharactersBankNameInput"/>
+          <include name="verifyMandatoryFieldValidationWhenSavingAsDraft"/>
+          <include name="testEnterValuesAndAddWebApp"/>
+          <include name="testInvalidUrlEntry"/>
+          <include name="testEnterAlphabetsInPincode"/>
+          <include name="testInvalidIPv4AddressWithLetters"/>
+          <include name="testClickCompanyInfoTab"/>
+          <include name="testClickOnPayInSettingsTab"/>
+          <include name="testSpecialCharacterInput"/>
+          <include name="testNextButtonNavigation"/>
+          <include name="testValidCityName"/>
+          <include name="testUploadPdfFile"/>
+          <include name="testUploadPdfFile_all_mandatoryfields"/>
+          <include name="testToggleSwitch"/>
+          <include name="testUpdateButtonTriggersUpdateProcess"/>
+          <include name="testPreviousButtonDisabledOnFirstPage"/>
+          <include name="testSelectDataPerPage"/>
+          <include name="testEnterValidAccountHolderName"/>
+          <include name="testValidPercentageFees"/>
+          <include name="testEnterValidUrlInAppUrlField"/>
+          <include name="testSelectValidBusinessType"/>
+          <include name="testValidBranchNameInput"/>
+          <include name="setup"/>
+          <include name="testSpecialCharactersInOrderPrefix"/>
+          <include name="CompanyInfoExceptBankIFSCCode"/>
+          <include name="testValidCompanyDetails"/>
+          <include name="testSearchAndClear"/>
+          <include name="testSelectMonthlyExpenditure"/>
+          <include name="testClickCloseButton"/>
+          <include name="testInvalidWebhookUrl"/>
+          <include name="testMandatoryFieldsAndNextButton"/>
+          <include name="testAddWebApplicationandCloseButton"/>
+          <include name="testEnterValidDetailsAndClickDraft"/>
+          <include name="tearDown"/>
+          <include name="testAddApplicationWithEmptyMandatoryFields"/>
+        </methods>
+      </class> <!-- tests.CompanyInfoTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
