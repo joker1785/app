@@ -4,7 +4,7 @@ pipeline {
     stages { // Pipeline: Defines the workflow
         stage('Checkout') { // Stage: Checkout code
             steps { // Steps: Checkout step
-                git 'https://github.com/your-repo/your-project.git'
+                git 'https://github.com/joker1785/adminPortal.git'
             }
         }
 
