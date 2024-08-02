@@ -5,17 +5,8 @@
     <classes>
       <class name="tests.MerchatOnboardTest">
         <methods>
-          <include name="verifyDraftButtonWithEmptyMandatoryFields"/>
-          <include name="testInvalidEmailFormat"/>
-          <include name="testValidDetailsAndDraft"/>
-          <include name="testExistingUsernameErrorMessage"/>
-          <include name="testMerchantRegisterLink"/>
-          <include name="testWeakPassword"/>
-          <include name="testPasswordAndEyeIcon"/>
           <include name="setPage"/>
           <include name="testNumericAndSpecialCharactersInFields"/>
-          <include name="testInvalidMobileFormat"/>
-          <include name="verifyMerchantOnboardingLink"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
@@ -23,12 +14,10 @@
       <class name="tests.VendorRegistrationTest">
         <methods>
           <include name="testExistingEmailErrorMessage"/>
-          <include name="testEnterValidAccountNo"/>
           <include name="uploadInvalidFileFormatVendorAgreement"/>
           <include name="testVendorOnboardingMenuVisibilityAndClickability"/>
           <include name="testExistingUsernameErrorMessage"/>
           <include name="testEnteringSpecialCharactersInBankIFSCCode"/>
-          <include name="testEnterAlphabetAndSymbolInMobileField"/>
           <include name="testPasswordValidation"/>
           <include name="testInValidCityName"/>
           <include name="testInValidCompanyAddressSubmission"/>
@@ -40,29 +29,39 @@
           <include name="setPage"/>
           <include name="testNumericAndSpecialCharactersInFields"/>
           <include name="uploadFileVendorAgreement"/>
-          <include name="testEnterPartialAccountNo"/>
           <include name="testEnterValidInBankIFSCCode"/>
           <include name="testValidCompanyNameInput"/>
           <include name="testValidCityName"/>
           <include name="testEnteringLessThan10DigitsInMobileField"/>
           <include name="testFormSubmission"/>
-          <include name="testEnterInvalidBranchName"/>
-          <include name="testEnterInValidPincode"/>
           <include name="setup"/>
           <include name="testEntervalidBranchName"/>
           <include name="testSelectValidBusinessType"/>
-          <include name="testEnterInValidAccountNo"/>
           <include name="testWeakPassword"/>
           <include name="testEnterInValidBankName"/>
-          <include name="testEnterInValidAccountHolderName"/>
           <include name="testInvalidEmailFormat"/>
-          <include name="testEnterValidAccountHolderName"/>
           <include name="testEnterValidBankName"/>
           <include name="testVendorMenuVisibilityAndClickability"/>
           <include name="testValidCompanyAddressSubmission"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.VendorRegistrationTest -->
+      <class name="tests.MerchantListTest">
+        <methods>
+          <include name="testInValidSearchQuery"/>
+          <include name="companyPage"/>
+          <include name="verifyMerchantListVisibilityAndClickability"/>
+          <include name="testAddMerchantsButton"/>
+          <include name="testEditButtonOpensEditingInterface"/>
+          <include name="testVerifyMerchantButtonClick"/>
+          <include name="testNavigateToNextPage"/>
+          <include name="testPrevButtonNavigation"/>
+          <include name="testDraftButtonClickDisplaysMerchantList"/>
+          <include name="testValidSearchQuery"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.MerchantListTest -->
       <class name="tests.LoginPageTest">
         <methods>
           <include name="testWrongCredentialsThirdAttempt"/>
@@ -125,6 +124,7 @@
           <include name="testEnterValuesAndAddWebApp"/>
           <include name="testInvalidUrlEntry"/>
           <include name="testInvalidIPv4AddressWithLetters"/>
+          <include name="testClickCompanyInfoTab"/>
           <include name="testClickOnPayInSettingsTab"/>
           <include name="testNextButtonNavigation"/>
           <include name="testSpecialCharacterInput"/>
@@ -172,23 +172,22 @@
       </class> <!-- tests.VendorListTest -->
       <class name="tests.transactionTest">
         <methods>
-          <include name="testSelectTamperedStatusAndDate"/>
-          <include name="testselectStatusfromDropdown"/>
           <include name="vendorList"/>
           <include name="testSelectDateAndcompanyInfo"/>
-          <include name="testSelectSuccessStatusAndDate"/>
-          <include name="testSelectFailedStatusAndDate"/>
           <include name="verifyTransactionsMenu"/>
-          <include name="testSelectCompanyAndVerifyDetails"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="testSelectDateField"/>
         </methods>
       </class> <!-- tests.transactionTest -->
       <class name="tests.DashboardPageTest">
         <methods>
+          <include name="testSelectCompanyAndYesterday"/>
+          <include name="testSelectMerchant"/>
           <include name="Verify_the_default_date_in_the_Duration_field"/>
+          <include name="testSelectCompanyAndTodaysDate"/>
           <include name="setPage"/>
+          <include name="testSelectCompanyAndLastThisMonth"/>
+          <include name="testSelectCustomRange"/>
           <include name="tearDown"/>
           <include name="setup"/>
           <include name="Verify_that_the_Duration_field_is_visible_and_enabled"/>

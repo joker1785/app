@@ -15,3 +15,4 @@ tests\VendorRegistrationTest.class
 tests\MerchatOnboardTest.class
 tests\transactionTest.class
 pages\MerchantListPage.class
+tests\gitFile.class

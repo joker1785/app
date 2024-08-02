@@ -1,0 +1,28 @@
+learning topics
+Key Responsibilities
+- Design, develop, and maintain automated test frameworks for data pipelines and AI products.
+- Implement automated tests using GitLab CI/CD pipelines to ensure the integrity and quality of data processing and AI models.
+- Collaborate with data engineers, data scientists, and software developers to identify testing requirements and create comprehensive test plans.
+- Develop and execute automated test scripts to validate data integrity, processing logic, and AI model performance.
+- Troubleshoot and resolve issues related to test automation, including script failures and CI/CD pipeline issues.
+- Monitor and report on the results of automated tests, providing insights and recommendations for improvements.
+- Ensure the scalability and maintainability of the automated testing framework.
+- Stay current with emerging trends and technologies in test automation, data engineering, and AI to continually improve testing strategies.
+
+Qualification
+- Bachelor's or Master's degree in Computer Science, Engineering, or a related field.
+- Proven (5+)experience in building and maintaining automated testing frameworks.
+- Strong proficiency with GitLab CI/CD pipelines and other related tools.
+- In-depth knowledge of test automation tools and frameworks (e.g., Selenium, JUnit, TestNG, PyTest).
+- Experience with testing data pipelines and AI products, including validation of data processing and machine learning models.
+- Proficiency in programming languages such as Python, Java, or similar.
+- Familiarity with data engineering concepts, ETL processes, and big data technologies (e.g., Hadoop, Spark).
+- Excellent problem-solving skills and attention to detail.
+- Strong communication skills and the ability to work collaboratively in a team environment.
+
+*Preferred Qualification
+
+- Experience with cloud platforms (AWS) and their associated data services.
+- Knowledge of containerization and orchestration tools (e.g., Docker, Kubernetes).
+- Familiarity with AI/ML frameworks (e.g., TensorFlow, PyTorch) and model testing methodologies.
+- Experience with version control systems, particularly GitHub.

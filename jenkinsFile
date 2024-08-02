@@ -1,0 +1,49 @@
+pipeline {
+    agent any // Node: Runs on any available agent
+
+    stages { // Pipeline: Defines the workflow
+        stage('Checkout') { // Stage: Checkout code
+            steps { // Steps: Checkout step
+                git 'https://github.com/your-repo/your-project.git'
+            }
+        }
+
+        stage('Build') { // Stage: Build the project
+            steps { // Steps: Build step
+                sh 'mvn clean install'
+            }
+        }
+
+        stage('Test') { // Stage: Test the project
+            steps { // Steps: Test step
+                sh 'mvn test'
+            }
+            post {
+                always { // Post steps: Always archive test results
+                    junit 'target/surefire-reports/*.xml'
+                }
+                success { // Post steps: Archive artifacts on success
+                    archiveArtifacts artifacts: 'target/*.jar', allowEmptyArchive: true
+                }
+            }
+        }
+
+        stage('Deploy') { // Stage: Deploy the application
+            steps { // Steps: Deploy step
+                sh './deploy.sh'
+            }
+        }
+    }
+
+    post {
+        always {
+            cleanWs() // Always clean workspace
+        }
+        success {
+            echo 'Pipeline completed successfully!' // Success notification
+        }
+        failure {
+            echo 'Pipeline failed!' // Failure notification
+        }
+    }
+}
