@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+                bat 'build.bat' // Use bat for Windows batch commands
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+                bat 'test.bat'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+                bat 'deploy.bat'
+            }
+        }
+    }
+}
